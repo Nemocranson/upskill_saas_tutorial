@@ -16,7 +16,6 @@
  
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
-
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
@@ -45,6 +44,11 @@ h1,h2,h3{
 }
 
 //navstyles
+
+.navbar-brand {
+    font-family:'Open-sans', sans-serif;
+    font-weight: 800;
+}
 
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
