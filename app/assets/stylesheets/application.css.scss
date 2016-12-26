@@ -45,6 +45,23 @@ h1,h2,h3{
 
 //navstyles
 
+// .navbar-default .navbar-toggle .icon-bar {
+//     background-color: white;
+// }
+
+.navbar-default .navbar-toggle {
+    border: 2px solid white;
+    & .icon-bar {
+        background-color: white;
+    }
+    &:hover,&:focus{
+        background-color: #808080;
+    }
+}
+
+
+
+
 .navbar-brand {
     font-family:'Open-sans', sans-serif;
     font-weight: 800;
